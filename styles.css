@@ -1,0 +1,195 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    color: #fff;
+    text-align: center;
+}
+body {
+    flex: 1;
+}
+
+/* Header Styles */
+header {
+    background: #1a1a1a;
+    padding: 15px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: cyan;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: cyan;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 50px;
+    padding: 80px 10%;
+    flex: 1;
+}
+.hero-text {
+    max-width: 500px;
+}
+.hero h1 {
+    font-size: 2.5em;
+}
+.hero h2, .highlight, h2 span {
+    text-shadow: 0px 0px 8px cyan;
+}
+.hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: cyan;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: white;
+    color: black;
+}
+.hero-image img {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px cyan;
+}
+
+/* About Section */
+.about-container {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 0px 10px cyan;
+    text-align: center;
+}
+
+/* Skills Section */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+}
+.skills-box {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0px 0px 10px cyan;
+}
+.skills-box h3 {
+    color: cyan;
+    margin-bottom: 10px;
+}
+
+/* Education Section */
+.education-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+}
+.education-container div {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 0px 10px cyan;
+    text-align: center;
+}
+.education-container h3 {
+    color: cyan;
+    margin-bottom: 10px;
+}
+
+/* Contact Form */
+.contact-container {
+    padding: 50px 20px;
+    max-width: 600px;
+    margin: auto;
+}
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+.contact-container button {
+    background: cyan;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.contact-container button:hover {
+    background: white;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    padding: 10px;
+    background: #1a1a1a;
+    text-align: center;
+}
+
+/* Social Icons */
+.social-icons {
+    margin-top: 10px;
+}
+.social-icons a {
+    margin: 0 10px;
+    color: cyan;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.social-icons a:hover {
+    color: white;
+}
